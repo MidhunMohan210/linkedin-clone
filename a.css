@@ -1,0 +1,758 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+body{
+  width: 1279px;
+  height: 100vh;
+ 
+}
+ 
+
+.header {
+ width: 100%;
+  height: 700px;
+  background-color: #ffffff;
+}
+
+nav {
+  width: 100%;
+  height: 80px;
+ 
+  position: relative;
+  display: flex;
+  padding-left: 68px;
+  padding-right: 65px;
+}
+.form {
+  height: 750px;
+  width: 50%;
+
+  float: left;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.pic {
+  height: 750px;
+  width: 50%;
+
+  float: left;
+  overflow: hidden;
+}
+
+.pic img {
+  background-size: auto;
+  height: 686px;
+}
+
+.logo {
+  width: 400px;
+  height: 80px;
+  flex-grow: 1;
+  position: relative;
+}
+
+.logo img {
+  position: absolute;
+  top: 2px;
+  background-size: 68px;
+  height: 76px;
+  width: 139px;
+  background-size: cover;
+}
+
+.icons {
+  height: 80px;
+  width: 30%;
+  
+}
+.join {
+  height: 80px;
+  width: 20%;
+ 
+}
+.welcome {
+  height: 185px;
+  width: 100%;
+  padding-left: 65px;
+}
+
+.welcome label {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 200;
+  color: #915c4d;
+  top: 37px;
+  font-size: 51px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  padding-left: 65px;
+  margin-top: 30px;
+}
+.info input {
+  width: 410px;
+  height: 55px;
+  border-radius: 5px;
+  border-width: 1px;
+}
+.email {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #915c4d;
+  font-size: 13px;
+
+  margin-bottom: 15px;
+}
+.password {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #915c4d;
+  font-size: 13px;
+  margin: 15px 0;
+}
+.forgot-password a {
+  color: #0a66c2;
+  text-decoration: none;
+  margin: 15px 0;
+  font-weight: 600;
+}
+.forgot-password {
+  margin: 15px 0;
+}
+
+.sign-in {
+  margin: 15px 0;
+}
+
+.sign-in button {
+  background-color: #0a66c2;
+  color: #fff;
+  border: none;
+  border-radius: 28px;
+  width: 410px;
+  height: 50px;
+  margin: 15px 0;
+}
+
+.line {
+  display: flex;
+  width: 410px;
+  justify-content: center;
+
+  color: rgb(80, 79, 79);
+  margin: 15px 0;
+}
+
+.last-button button {
+  border-radius: 28px;
+  width: 410px;
+  height: 50px;
+  border-width: 1px;
+  font-weight: 300;
+  font-size: 15px;
+  margin: 15px 0;
+  background-color: #fff;
+}
+
+/* feature 1 */
+
+.f1 {
+  display: flex;
+  top: 10px;
+  height: 340px;
+  width: 100%;
+  background-color: #f3f2f0;
+}
+
+.f1 .left {
+  width: 40%;
+  height: 340px;
+
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell,
+    "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 52px;
+  font-weight: 200;
+  padding: 60px 0px 0px 72px;
+  color: #181818;
+}
+
+.f1 .right {
+  width: 60%;
+  height: 340px;
+
+  padding: 75px 70px;
+}
+.content-topic {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  top: -18px;
+  color: #181818;
+}
+
+.f1-buttons button {
+  height: 52px;
+  padding: 10px 40px;
+
+  margin: 4px 2px;
+  border-radius: 35px;
+  border-width: 1px;
+  border-color: #434343;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* feature 2.................................. */
+
+.f2 {
+  height: 345px;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+}
+.f2 .right {
+  width: 60%;
+  height: 345px;
+  padding: 75px 70px;
+}
+
+.f2 .left {
+  width: 40%;
+  height: 345px;
+
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell,
+    "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 51px;
+  font-weight: 200;
+  padding: 60px 0px 0px 72px;
+  color: #181818;
+}
+.f2-buttons button {
+  height: 52px;
+  padding: 10px 40px;
+  margin: 4px 2px;
+  border-radius: 35px;
+  border-width: 1px;
+  border-color: #434343;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fff;
+}
+
+/* feature 2.................................. */
+
+.f3 {
+  height: 290px;
+  background-color: #f1ece5;
+  display: flex;
+}
+.f3 .right {
+  width: 60%;
+  height: 345px;
+  padding: 75px 70px;
+}
+
+.f3-buttons button {
+  height: 52px;
+  padding: 10px 40px;
+
+  margin: 4px 2px;
+  border-radius: 35px;
+  border-width: 1px;
+  border-color: #434343;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fff;
+  position: absolute;
+  top: 30px;
+}
+
+.f3 .left {
+  width: 40%;
+  height: 345px;
+
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell,
+    "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 45px;
+  font-weight: 400;
+  padding: 60px 0px 0px 72px;
+  color: #b24020;
+  position: relative;
+}
+.post-your-job {
+  top: -22px;
+}
+
+/* f4............................. */
+
+.f4 {
+  height: 840px;
+  width: 100%;
+  background-color: #f3f2f0;
+  display: flex;
+}
+
+.f4 .left {
+  width: 55%;
+  height: 840px;
+}
+.f4 .right {
+  display: flex;
+  width: 45%;
+  height: 840px;
+
+  position: relative;
+}
+
+.f4 img {
+  display: block;
+  max-width: 100%;
+
+  width: 500px;
+  height: 500px;
+  margin: auto;
+}
+
+.left h2 {
+  font-size: 40px;
+
+  color: #8f5849;
+
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell,
+    "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 45px;
+  font-weight: 400;
+  padding: 60px 0px 0px 72px;
+  top: 200px;
+}
+.left p {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell,
+    "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 32px;
+  font-weight: 100;
+  top: 155px;
+  padding: 60px 0px 0px 72px;
+}
+
+/* f.5................... */
+
+.f5 {
+  width: 100%;
+  height: 750px;
+
+  padding: 60px 72px 0px 72px;
+  display: flex;
+}
+
+.f5 .left {
+  width: 45%;
+  height: 750px;
+}
+.f5 .left img {
+  width: 320px;
+  height: 250px;
+  top: 160px;
+}
+
+.f5 h2 {
+  font-size: 50px;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell,
+    "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding: 0;
+  top: 190px;
+  color: #181818;
+  font-weight: 100;
+}
+
+.f5 button {
+  height: 50px;
+  width: 215px;
+  border-radius: 68px;
+  background-color: transparent;
+  font-size: 17px;
+  border-width: 1px;
+  top: 217px;
+}
+
+.f5 .right {
+  width: 55%;
+  height: 750px;
+}
+
+.f5 .right img {
+  width: 350px;
+  height: 350px;
+
+  top: 95px;
+
+  left: 96px;
+}
+.f5 .right button {
+  top: 121px;
+  border-radius: 5px;
+  width: 255px;
+}
+.f5 .right h2 {
+  top: 90px;
+}
+
+/* f6.............. */
+.f6 {
+  width: 100%;
+  height: 850px;
+  overflow: hidden;
+
+ 
+}
+.f6 .left {
+  width: 50%;
+  height: 850px;
+ 
+
+  
+}
+.sub-left {
+  width: 632px;
+  height: 600px;
+  background-color: #f3f2f0;
+  top: 80px;
+ 
+}
+
+.f6 .right {
+  width: 100%;
+  height: 600px;
+ 
+}
+
+.f6 img{
+  
+  
+width: 100%;
+height: 780px;
+  width: 850px;
+  left: 726px;
+  top: -850px;
+ 
+
+  
+}
+
+.f6  h2{
+  top:75px;
+}
+
+.f6 p{
+  top: 19px;
+  margin-bottom: 62px;
+}
+
+.f6 button{
+  display: flex;
+  flex-direction: column;
+  width: 405px;
+  height: 62px;
+  margin: 20px 0;
+  background-color:#eae6df;
+  border:none;
+  font-size: 20px;
+  padding: 20px;
+  margin-left: 72px;
+  
+}
+
+.f7{
+  width: 100%;
+  height: 750px;
+  background-color: antiquewhite;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+
+}
+.f7 .left{
+  width: 50%;
+  height:750px ;
+}
+.f7 .right{
+  width: 50%;
+  height:750px ;
+}
+.f7 h3{
+  font-size: 40px;
+
+  color: #8f5849;
+
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell,
+    "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 45px;
+  font-weight: 400;
+  padding: 60px 0px 0px 72px;
+  top: 200px;
+}
+.f7 p{
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+  "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell,
+  "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Emoji",
+  "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+font-size: 40px;
+font-weight: 100;
+top: 155px;
+padding: 60px 0px 0px 72px;
+}
+
+.box{
+  width: 875px;
+  left: -165px;
+ 
+align-items: center;
+  margin-top: 83px;
+  background-color: #f4faff;
+  height: 600px;
+  right: -28px;
+  text-align: center;
+
+  
+}
+iframe{
+  left: 88px;
+  top: 217px;
+  z-index: 1;
+}
+
+/* f8...................... */
+
+.f8{
+
+width: 100%;
+height: 700px;
+position: relative;
+
+
+
+
+}
+
+.para{
+  height: 150px;
+  width: 100%;
+  
+  top: -704px;
+
+}
+
+.blue-img .bg-img{
+  height: 700px;
+  width: 100%;
+  
+  
+ 
+ 
+ 
+}
+.para p{
+  font-size: 58px;
+  font-weight: 200;
+  padding: 60px 0px 0px 72px;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+  "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell,
+  "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Emoji",
+  "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  
+
+  top: -40px;
+  color: #3d3b3b;
+  line-height: 63px;
+
+
+}
+
+
+.f8 button{
+  
+  background-color: #0a66c2;
+  border: none;
+  border-radius: 28px;
+  width: 125px;
+  height: 50px;
+  color: #fff;
+  left: 72px;
+  margin-top: 10px;
+}  
+
+
+.footer{
+  height: 410px;
+  width: 100%;
+  background-color: #f3f2f0;
+  top: -154px;
+ 
+
+}
+
+.footer .wrap{
+  height: 410px;
+  width: 1128px;
+  padding: 24px 0px 22px 0px;
+  margin: auto;
+  
+  
+}
+
+.footer .logo{
+  height: 150px;
+  width: 100px;
+ 
+  
+}
+.footer .linkedin{
+  height: 50px;
+  top: -144px;
+}
+
+.all-list{
+  height: 364px;
+  width: 1026px;
+  padding: 0 0 0 16px;
+ 
+  float: left;
+  left: 285px;
+  top: 35px;
+  position: absolute;
+}
+  
+
+
+#list{
+  height: 364px;
+  width: 192px;
+  margin-right: 24px;
+  
+
+
+}
+.all-list .a{
+  
+  float: left;
+
+}
+.all-list .b{
+  
+  float: left;
+
+}
+
+.all-list .c{
+  
+  float: left;
+
+}
+
+.all-list .d{
+ 
+  float: left;
+
+}
+
+.all-list li{
+  
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+  list-style-type: none;
+  font-size: 17px;
+  font-weight: 600px;
+  line-height: 24px;
+
+}
+
+
+ .icon-all{
+  width: 64px;
+  height: 78px;
+  margin: 0 8px 0 8px;
+ 
+  float: left;
+  
+
+ }
+ .icon-all li{
+  list-style-type: none;
+  
+ }
+
+ .icon-all img{
+  right: -19px;
+  top: 2px;
+
+ }
+.icon-all li{
+  right: -3px;
+  top: 22px;
+
+ 
+ }
+ #ic4 li{
+  right: -18px;
+  top: 27px;
+ }
+ #ic4 img{
+  right: -4px;
+ }
+
+ .join{
+  display: flex;
+  flex-direction: row;
+ }
+
+ .join button{
+  top: 16px;
+  height: 48px;
+  width: 112px;
+  padding: 12px 24px;
+ }
+
+.join-now button{
+  border: none;
+  background-color: transparent;
+ }
+ .join .sign-in button{
+  top: -14px;
+  height: 48px;
+  width: 112px;
+  padding: 12px 24px;
+  background-color: #0a66c2;
+ 
+
+ }
+
+ #abc::after{
+  content: "";
+  
+ }
+
+
+
+
+
+ 
+
+
+
+
